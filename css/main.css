@@ -12,10 +12,3 @@ form input[name='occupationOther'] {
     display: none;
 }
 
-var CA = document.createElement("California");
-var NY = document.createElement("New York");
-document.getElementById("").appendChild(newListItem);
-
-document.getElementById("").appendChildaddEventListener('DOMContentLoaded', function() {
-    onReady();
-});

@@ -2,24 +2,27 @@
     Signup Form Script
     This script will load the state select list and validate the form before submission
 */
+"use strict";
+
+function choosingState() {
+    var stateSelect = document.getElementById('state-select').elements['usState'];
+    var idx;
+    var stateOption;
+    var usState;
+
+    for (idx = 0; idx < usStates.length; idx++) {
+        var stateOption = document.createElement('option');
+        usState = usStates[idx];
+        stateOption.value = usStates.code;
+        stateOption.innerHTML = usStates.name;
+        stateSelect.appendChild(stateOption);
+    }
+}
+
+//function
 
 document.addEventListener('DOMContentLoaded', function() {
-
+    choosingState();
+    //document.addEventListener()
 
 });
-
-
-
-
-
-
-function us-states {
-
-    var state = document.createElement("state");
-    document.getElementById("list").appendChild(newListItem);
-    var idx;
-}
-for (idx = 0; idx < us-states.length; idx++){
-    stateOption = document.createElement('stateOption
-    document.addEventListener('DOMContentLoaded', us-states)
-}
