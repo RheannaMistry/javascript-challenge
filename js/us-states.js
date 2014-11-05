@@ -235,4 +235,5 @@ var usStates = [
         "name": "Wyoming",
         "code": "WY"
     }
+
 ];
