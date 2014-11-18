@@ -80,6 +80,7 @@ function onOccupationChange() {
         occupationOther.style.display = 'block';
     } else {
         occupationOther.style.display = 'none';
+        occupationOther.value = '';
     }
 }
 
